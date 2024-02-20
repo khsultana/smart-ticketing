@@ -7,10 +7,11 @@
         <title>Smart Ticketing</title>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
 
     <body class="container mx-auto ">
-        <header class="">
+        <header>
             <!-- navbar Section  -->
             <nav>
                 <div class="navbar bg-base-100">
@@ -51,7 +52,7 @@
                 </div>
             </nav>
             <!-- Banner Section Start-->
-            <section class="mt-10">
+            <div class="mt-10">
                 <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png);">
                     <div class="hero-content text-center text-neutral-content text-white">
                         <div class="max-w-full">
@@ -66,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="-mt-20 flex gap-6 justify-center items-center ">
+                <div class="-mt-20 flex flex-col lg:flex-row gap-6 justify-center items-center ">
                     <div
                         class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6">
                         <div>
@@ -98,9 +99,48 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </header>
         <main>
+            <!-- best Offer section -->
+            <section class="mt-40">
+                <h1 class="text-4xl font-bold text-center">Best offers for you </h1>
+                <!-- <div class="w-[573px] h-[220px] bg-[#FFBF0F]">
+
+                </div> -->
+                <div class="flex justify-center items-center gap-6 mt-10">
+                    <div>
+                        <img class="rounded-3xl" src="images/Best-offer-Left.png" alt="">
+                        <div class="flex justify-center items-center gap-24 -mt-36">
+                            <div>
+                                <h1 class="text-4xl font-extrabold inter">15% OFF</h1>
+                                <p class="text-xl font-semibold">on your next purchase</p>
+                                <p>use by January 2024</p>
+                            </div>
+                            <div>
+                                <h1 class="text-3xl raleway">NEW15</h1>
+                                <p>Coupon Code</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="rounded-3xl" src="images/Best-offer-Right.png" alt="">
+                        <div class="flex justify-center items-center gap-24 -mt-36">
+                            <div>
+                                <h1 class="text-4xl font-bold">15% OFF</h1>
+                                <p>on your next purchase</p>
+                                <p>use by January 2024</p>
+                            </div>
+
+                            <div>
+                                <h1>NEW15</h1>
+                                <p>Coupon Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
     </body>
