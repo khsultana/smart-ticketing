@@ -7,3 +7,7 @@
     font-weight: 700;
     font-style: normal;
 }
+
+hr{    
+        border-top: 1px dashed white;
+ }
