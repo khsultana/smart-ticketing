@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Ticketing</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -22,25 +19,12 @@
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-              >
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
                 <li><a>Destination</a></li>
@@ -58,9 +42,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <div
-              class="flex justify-center items-center gap-3 bg-[#1DD1001A] w-[130px] h-[56px] rounded-xl"
-            >
+            <div class="flex justify-center items-center gap-3 bg-[#1DD1001A] w-[130px] h-[56px] rounded-xl">
               <h1 class="text-xl text-[#1DD100] font-bold">Bus</h1>
               <img src="images/bus-icon.png" alt="" />
             </div>
@@ -71,10 +53,7 @@
 
       <!-- Banner Section Start-->
       <div class="mt-10">
-        <div
-          class="hero min-h-screen rounded-3xl"
-          style="background-image: url(images/banner.png)"
-        >
+        <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png)">
           <div class="hero-content text-center text-neutral-content text-white">
             <div class="max-w-full">
               <h1 class="mb-5 text-6xl font-bold">
@@ -87,21 +66,16 @@
                 since 1990. <br />
                 Best & Most Professional Travel Option in Bangladesh.
               </p>
-              <button
-                onclick="buyTicket()"
-                class="m-8 w-[130px] h-[56px] rounded-xl btn bg-[#1DD100] border-none text-lg"
-              >
-                Buy Tickets
-              </button>
+              <a href="#buy-ticket-sec"><button
+                  class="m-8 w-[130px] h-[56px] rounded-xl btn bg-[#1DD100] border-none text-lg">
+                  Buy Tickets
+                </button></a>
             </div>
           </div>
         </div>
-        <div
-          class="-mt-20 flex flex-col lg:flex-row gap-6 justify-center items-center"
-        >
+        <div class="-mt-20 flex flex-col lg:flex-row gap-6 justify-center items-center">
           <div
-            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6"
-          >
+            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6">
             <div>
               <img src="images/people.png" alt="" />
             </div>
@@ -111,8 +85,7 @@
             </div>
           </div>
           <div
-            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6"
-          >
+            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6">
             <div>
               <img src="images/ticket-cupon.png" alt="" />
             </div>
@@ -122,8 +95,7 @@
             </div>
           </div>
           <div
-            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6"
-          >
+            class="bg-white shadow-xl rounded-3xl w-[308px] h-[138px] border-b-4 border-[#1DD100] flex justify-center items-center gap-6">
             <div>
               <img src="images/stoppage.png" alt="" />
             </div>
@@ -143,9 +115,7 @@
         <!-- <div class="w-[573px] h-[220px] bg-[#FFBF0F]">
 
                 </div> -->
-        <div
-          class="flex lg:flex-row flex-col justify-center items-center gap-6 mt-10"
-        >
+        <div class="flex lg:flex-row flex-col justify-center items-center gap-6 mt-10">
           <div>
             <img class="rounded-3xl" src="images/Best-offer-Left.png" alt="" />
             <div class="flex justify-center items-center gap-24 -mt-40">
@@ -169,7 +139,7 @@
                 <p>use by January 2024</p>
               </div>
               <div>
-                <h1 class="text-3xl raleway">Couple 20</h1>
+                <h1 class="text-3xl raleway">Couple20</h1>
                 <p>Coupon Code</p>
               </div>
             </div>
@@ -182,10 +152,10 @@
         </div>
       </section>
       <!-- Ticket Buying Section  -->
-      <section
-        id="buy-ticket-sec"
-        class="bg-[#F7F8F8] container mx-auto border-t-4 border-[#1DD100] shadow-xl rounded-t-[40px] lg:w-[1440px] lg:h-[1820px] mt-32"
-      >
+
+
+      <section id="buy-ticket-sec"
+        class="bg-[#F7F8F8] container mx-auto border-t-4 border-[#1DD100] shadow-xl rounded-t-[40px] lg:w-[1440px] lg:h-[1820px] mt-32">
         <h1 class="raleway text-4xl text-center mt-10">P.H Paribahan</h1>
         <p class="text-lg text-center mt-10">
           Yes, you can run unit tests and view the results directly within the
@@ -194,13 +164,10 @@
         </p>
         <!-- Price Upgrading -->
         <div
-          class="lg:flex justify-between items-center bg-[url(images/Ticket.png)] bg-no-repeat container mx-auto lg:w-[1170px] lg:h-[418px] rounded-3xl mt-10"
-        >
+          class="lg:flex justify-between items-center bg-[url(images/Ticket.png)] bg-no-repeat container mx-auto lg:w-[1170px] lg:h-[418px] rounded-3xl mt-10">
           <div>
             <div class="flex justify-start items-center lg:gap-40">
-              <div
-                class="lg:flex justify-start items-center p-2 lg:ml-16 gap-6"
-              >
+              <div class="lg:flex justify-start items-center p-2 lg:ml-16 gap-6">
                 <div>
                   <img src="images/bus-logo.png" alt="" />
                 </div>
@@ -211,16 +178,12 @@
                   <p>Coach-009-WEB ! AC_Business</p>
                 </div>
               </div>
-              <div
-                class="w-[180px] h-[56px] bg-[#1DD10026] rounded-xl flex justify-center items-center gap-3"
-              >
+              <div class="w-[180px] h-[56px] bg-[#1DD10026] rounded-xl flex justify-center items-center gap-3">
                 <img src="images/seat-green.png" alt="" />
                 <p class="text-[#1DD100] text-lg">40 Seats left</p>
               </div>
             </div>
-            <div
-              class="lg:w-[808px] lg:h-[258px] bg-[#F7F8F8] rounded-3xl p-10 lg:ml-10"
-            >
+            <div class="lg:w-[808px] lg:h-[258px] bg-[#F7F8F8] rounded-3xl p-10 lg:ml-10">
               <div class="flex justify-between">
                 <p>Route</p>
                 <p class="font-bold">Dhaka - Sylhet</p>
@@ -248,9 +211,7 @@
         <!-- Price Upgrading End -->
 
         <!-- Available Seat Section Start -->
-        <div
-          class="lg:w-[1170px] lg:h-[1056px] rounded-3xl bg-white mx-auto mt-10 p-10"
-        >
+        <div class="lg:w-[1170px] lg:h-[1056px] rounded-3xl bg-white mx-auto mt-10 p-10">
           <div class="lg:flex justify-between">
             <!-- Left Side Start-->
             <div class=" ">
@@ -272,15 +233,10 @@
               <div class="flex justify-end">
                 <button class="w-[110px] h-[56px] bg-[#0307121A] rounded-xl">
                   <center>
-                    <svg
-                      class="size-10 p-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
+                    <svg class="size-10 p-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                       <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                       <path
-                        d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
-                      />
+                        d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
                     </svg>
                   </center>
                 </button>
@@ -301,134 +257,135 @@
                 </div>
                 <div>
                   <div class=" ">
-                    <kbd class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A1</kbd>
+                    <kbd id="A1" onclick="getARandomSeatNumber()"
+                      class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B1</kbd>
+                    <kbd id="B1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C1</kbd>
+                    <kbd id="C1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D1</kbd>
+                    <kbd id="D1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E1</kbd>
+                    <kbd id="E1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F1</kbd>
+                    <kbd id="F1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G1</kbd>
+                    <kbd id="G1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H1</kbd>
+                    <kbd id="H1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I1</kbd>
+                    <kbd id="I1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I1</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J1</kbd>
+                    <kbd id="J1" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J1</kbd>
                   </div>
                 </div>
 
                 <div>
                   <div class=" ">
-                    <kbd class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A2</kbd>
+                    <kbd id="A2" class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B2</kbd>
+                    <kbd id="B2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C2</kbd>
+                    <kbd id="C2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D2</kbd>
+                    <kbd id="D2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E2</kbd>
+                    <kbd id="E2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E2 </kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F2</kbd>
+                    <kbd id="F2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G2</kbd>
+                    <kbd id="G2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H2</kbd>
+                    <kbd id="H2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I2</kbd>
+                    <kbd id="I2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I2</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J2</kbd>
+                    <kbd id="J2" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J2</kbd>
                   </div>
                 </div>
                 <br />
 
                 <div>
                   <div class=" ">
-                    <kbd class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A3</kbd>
+                    <kbd id="A3" class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B3</kbd>
+                    <kbd id="B3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C3</kbd>
+                    <kbd id="C3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D3</kbd>
+                    <kbd id="D3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E3</kbd>
+                    <kbd id="E3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F3</kbd>
+                    <kbd id="F3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G3</kbd>
+                    <kbd id="G3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H3</kbd>
+                    <kbd id="H3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I3</kbd>
+                    <kbd id="I3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I3</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J3</kbd>
+                    <kbd id="J3" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J3</kbd>
                   </div>
                 </div>
 
                 <div>
                   <div class=" ">
-                    <kbd class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A4</kbd>
+                    <kbd id="A4" class="kbd mb-5 mt-6 lg:h-[56px] lg:w-[110px]">A4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B4</kbd>
+                    <kbd id="B4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">B4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C4</kbd>
+                    <kbd id="C4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">C4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D4</kbd>
+                    <kbd id="D4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">D4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E4</kbd>
+                    <kbd id="E4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">E4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F4</kbd>
+                    <kbd id="F4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">F4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G4</kbd>
+                    <kbd id="G4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">G4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H4</kbd>
+                    <kbd id="H4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">H4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I4</kbd>
+                    <kbd id="I4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">I4</kbd>
                   </div>
                   <div class="">
-                    <kbd class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J4</kbd>
+                    <kbd id="J4" class="kbd mb-5 lg:h-[56px] lg:w-[110px]">J4</kbd>
                   </div>
                 </div>
               </div>
@@ -445,79 +402,83 @@
               <hr class="hr-dots text-[#00000033] mt-5 mb-5" />
 
               <div class="w-[433px] h-[335px] bg-[#F7F8F8] rounded-xl">
-                 <div class="flex justify-between p-5">
+                <div class="flex justify-between p-5">
                   <div class="font-bold">Seat</div>
                   <div class="font-bold">Class</div>
                   <div class="font-bold">Price</div>
-                 </div>
-                 <center>                 <hr class="hr-dots text-[#00000033] mb-5 w-[400px]" />
-                 </center>
-                 <div class="flex justify-between -mt-7 p-5">
+                </div>
+                <center>
+                  <hr class="hr-dots text-[#00000033] mb-5 w-[400px]" />
+                </center>
+                <div class="flex justify-between -mt-7 p-5">
                   <div>C2</div>
                   <div>Economy</div>
                   <div>550</div>
-                               </div>
-                 <div class="flex justify-between -mt-7 p-5">
+                </div>
+                <div class="flex justify-between -mt-7 p-5">
                   <div>C2</div>
                   <div>Economy</div>
                   <div>550</div>
-              
-                 </div>
-<center>                 <hr class="hr-dots text-[#00000033]  mb-5 w-[400px]" />
-    <label class="form-control w-full max-w-xs">
-    <div class="label">
-      <span class="label-text font-bold">Total Price</span>
-      <span class="label-text-alt font-bold">BDT 1100</span>
-    </div>
-    <label class="input input-bordered flex items-center gap-2">
-      <input type="text" class="grow" placeholder="Search" />
-      <button class="bg-[#1DD100] ml-12 btn">Apply</button>
-    </label>    <div class="label">
-      <span class="label-text-alt font-bold">Grand Total</span>
-      <span class="label-text-alt font-bold">BDT 1100</span>
-    </div>
-  </label>
-</center>
-      </div>
-                <div class="flex flex-col gap-6 p-10">
+                </div>
+                <center>
+                  <hr class="hr-dots text-[#00000033]  mb-5 w-[400px]" />
                   <label class="form-control w-full max-w-xs">
                     <div class="label">
-                      <span class="label-text">What is your name?</span>
-                     </div>
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                                     </label>
+                      <span class="label-text font-bold">Total Price</span>
+                      <span class="label-text-alt font-bold">BDT 1100</span>
+                    </div>
+                    <label class="input input-bordered flex items-center gap-2">
+                      <input id="couponCodeInput" type="text" class="grow" placeholder="Search" />
+                      <buttons id="applyCouponBtn" class="bg-[#1DD100] ml-3 w-24 btn ">Apply</button>
+                    </label>
+                    <div class="label">
+                      <span class="label-text-alt font-bold">Grand Total</span>
+                      <span class="label-text-alt font-bold">BDT 1100</span>
+                    </div>
+                  </label>
+                  <div id="couponResult">
 
-                                     <label class="form-control w-full max-w-xs">
-                                      <div class="label">
-                                        <span class="label-text">What is your name?</span>
-                                       </div>
-                                      <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                                                       </label>
+                  </div>
+                </center>
 
-                                                       <label class="form-control w-full max-w-xs">
-                                                        <div class="label">
-                                                          <span class="label-text">What is your name?</span>
-                                                         </div>
-                                                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
- </label>
-                                                                         <button class="btn w-full bg-[#1DD100]">Next</button>
-                                                                         <div class="flex justify-between">
-                                                                          <p class="underline">Terms and Conditions</p>
-                                                                          <p class="underline">Cancellation Policy</p>
-                                                                        </div>
+              </div>
+              <div class="flex flex-col gap-6 p-10">
+                <label class="form-control w-full max-w-xs">
+                  <div class="label">
+                    <span required class="label-text font-bold">Passenger Name *</span>
+                  </div>
+                  <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                </label>
+
+                <label class="form-control w-full max-w-xs">
+                  <div class="label">
+                    <span class="label-text font-bold">Phone Number *</span>
+                  </div>
+                  <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                </label>
+
+                <label class="form-control w-full max-w-xs">
+                  <div class="label">
+                    <span class="label-text font-bold">Email ID</span>
+                  </div>
+                  <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                </label>
+                <button class="btn w-full bg-[#1DD100]">Next</button>
+                <div class="flex justify-between">
+                  <p class="underline">Terms and Conditions</p>
+                  <p class="underline">Cancellation Policy</p>
                 </div>
               </div>
-            
             </div>
-            <!-- Right Side End-->
+
           </div>
+          <!-- Right Side End-->
+        </div>
         </div>
       </section>
     </main>
     <!-- Footer Section Start -->
-    <footer
-      class="container mx-auto p-20 bg-[#030712] lg:w-[1440px] lg:h-[457px]"
-    >
+    <footer class="container mx-auto p-20 bg-[#030712] lg:w-[1440px] lg:h-[457px]">
       <div class="lg:flex justify-between mt-10">
         <div>
           <h1 class="text-white text-3xl font-bold mb-4">E-Ticket</h1>
@@ -529,9 +490,7 @@
           <p class="font-semibold text-xl text-white mt-10 lg:mt-0">
             Download our app
           </p>
-          <div
-            class="lg:flex justify-end items-center gap-4 border mt-4 p-2 rounded-lg"
-          >
+          <div class="lg:flex justify-end items-center gap-4 border mt-4 p-2 rounded-lg">
             <div>
               <img src="images/playstore.png" alt="" />
             </div>
@@ -557,7 +516,8 @@
       </div>
     </footer>
     <!-- Footer Section End -->
-
-    <script src="script/buy-ticket-sec.js"></script>
+    <script src="script/random.js"></script>
+    <script src="script/app.js"></script>
   </body>
+
 </html>
